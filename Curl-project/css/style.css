@@ -1,0 +1,42 @@
+html{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+   font-family: 'vazir';
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ body{
+    background-image:
+    url('/img/iwan-shimko-642299-unsplash.jpg');
+ }
+.borderless th {
+   border: none;
+}
+
+.table{
+   background-color:#89939494;
+   color: #ecf0f1;
+   border-radius: 15px;
+   direction: rtl;   
+   text-align: center;
+   
+}
+th:first-child{
+   border-top-right-radius: 15px;
+}
+th:last-child{
+   border-top-left-radius: 15px;
+}
+th{
+   background-color: #e4405eb9;
+   color: black;    
+}
+@font-face {
+   font-family: Vazir;
+   src:url('/vazir-font/Vazir.ttf') format("truetype"); 
+}
